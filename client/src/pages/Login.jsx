@@ -35,7 +35,7 @@ export default function Login() {
           {loading ? 'Signing in...' : 'Login'}
         </button>
       </form>
-      <p style={{marginTop:12, color:'#6b7280'}}>Default admin: admin@tasker.com / Admin@123</p>
+      <p style={{marginTop:12, color:'#6b7280'}}> admin:  add in your env file  / Password : env file </p>
     </div>
   )
 }
