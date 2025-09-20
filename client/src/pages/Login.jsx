@@ -4,8 +4,8 @@ import { useAuth } from '../auth/AuthContext.jsx'
 
 export default function Login() {
   const { login, loading } = useAuth()
-  const [email, setEmail] = useState('admin@tasker.com')
-  const [password, setPassword] = useState('Admin@123')
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
   const [error, setError] = useState('')
   const navigate = useNavigate()
   const location = useLocation()
