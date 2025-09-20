@@ -14,10 +14,10 @@ export default function Home() {
       <div className="card">
         <h3>CSV/XLSX Format</h3>
         <pre style={{background:'#f9fafb',padding:'12px',overflow:'auto'}}>
-FirstName,Phone,Notes
-Rahul,+919876543210,Follow up
-Aisha,+971501234567,High priority
-John,+14155552671,Call after 2PM
+FirstName,Phone,Notes     <br/>
+Rahul,+919876543210,Follow up    <br/>
+Aisha,+971501234567,High priority       <br/>
+John,+14155552671,Call after 2PM <br/>
         </pre>
       </div>
     </div>
